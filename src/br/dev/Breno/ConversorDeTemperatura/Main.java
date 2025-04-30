@@ -1,13 +1,11 @@
 package br.dev.Breno.ConversorDeTemperatura;
 
-import br.dev.Breno.ConversorDeTemperatura.gui.TelaTemperatura;
-import br.dev.Breno.ConversorDeTemperatura.model.Temperatura;
-
+import br.dev.Breno.ConversorDeTemperatura.gui.TelaConversor;
 
 public class Main {
 
 	public static void main(String[] args) {
-		TelaTemperatura tela = new TelaTemperatura();
+		TelaConversor tela = new TelaConversor();
         tela.criarTelaConversor("Conversor de Temperatura");
 		
 
