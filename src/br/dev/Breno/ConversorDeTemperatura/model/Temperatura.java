@@ -3,23 +3,22 @@ package br.dev.Breno.ConversorDeTemperatura.model;
 public class Temperatura {
 	private double celsius;
 
-	// Criando get e set
+	//Criando get e set 
 	public double getCelsius() {
 
 		return celsius;
 	}
-
 	public void setCelsius(double celsius) {
-		// celsisius não pode ser menor que -273.15, já que esse valor é o zero absoluto
+		//celsisius não pode ser menor que -273.15, já que esse valor é o zero absoluto 
 		if (celsius >= -273.15) {
 			this.celsius = celsius;
-		} else {
+		}
+		else {
 			System.out.println("Erro");
 		}
-
+		
 	}
-
-//Criando métodos de conversões
+//Criando métodos 
 	public double converterParaKelvin() {
 		double kelvin = celsius + 273.15;
 		return kelvin;
