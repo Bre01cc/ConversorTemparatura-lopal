@@ -7,7 +7,7 @@ O objetivo desta atividade foi aplicar na prática todos os conhecimentos adquir
 
 ![image](https://github.com/user-attachments/assets/7400e581-6292-428e-adc3-36708186bf7c)
 
-# Tecnologias:
+# Tecnologias
 - Java
 ## Autor
 - [Breno Oliveira](https://www.linkedin.com/in/breno-oliveira-assis-reis-203010351/)
